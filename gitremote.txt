@@ -1,0 +1,17 @@
+echo "# myrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/anishumar/myrepo.git
+
+Set username to commit 
+PS C:\Users\anish\desktop\myrepo> git config --global user.name "anishumar"
+PS C:\Users\anish\desktop\myrepo> git config --global user.email "anishumar786@gmail.com"
+
+Git config --list
+
+Username anishumar
+Pass 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
+
+git push -u origin main
